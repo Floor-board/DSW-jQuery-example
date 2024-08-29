@@ -6,5 +6,7 @@ $(document).ready(function() {
 		$("p").addClass("bright");
 		$("img").addClass("border");
 	});
-	$("#p1").click();
+	$("#p1").click(function(){
+		$(".dissapear").toggle();
+	});
 });
